@@ -50,3 +50,12 @@ int main(int argc, char **argv, char **env) {
     tfp->close();
     exit(0);
 }
+
+/*
+ * SWITCHED FROM 7-SEGMENT TO TFT PLOTTING:
+ * - Replaced vbdHex() displays with vbdPlot() for real-time graphing
+ * - Increased simulation cycles from 300 to 1000 for longer, smoother plots  
+ * - Added vbdFlag() button control to start/stop counting interactively
+ * - Now shows counter values as a continuous waveform on TFT screen instead of individual digits
+ * - Much faster update rate allows for visualizing the complete counter cycle pattern
+ */
