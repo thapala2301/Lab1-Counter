@@ -1,7 +1,7 @@
 #include "Vcounter.h" //Mandatory header files e.g. Vcounter.h for module counter
 #include "verilated.h"
 #include "verilated_vcd_c.h"
-#include "vbuddy.cpp"
+#include "vbuddy.h"
 
 int main(int argc, char **argv, char **env) {
     int i; //i counts the number of clock cycles to simulate
