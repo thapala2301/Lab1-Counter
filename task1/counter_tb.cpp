@@ -110,9 +110,4 @@ KEY COMPONENTS:
    - Cycle 15: Reset pulses → count resets to 0
    - Cycles 16-299: Enable active → count increments from 0 again
 
-USAGE:
-- Run with: ./obj_dir/Vcounter
-- View results: gtkwave counter.vcd
-- Recompile after changes: verilator -Wall --trace --cc counter.sv --exe counter_tb.cpp
-
 */
